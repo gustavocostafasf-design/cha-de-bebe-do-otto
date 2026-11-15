@@ -1,0 +1,25 @@
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+  theme: {
+    extend: {
+      colors: {
+        marfim: "#FAF7F0",
+        bege: "#EFE8D8",
+        salvia: "#8FA38A",
+        salviaEscuro: "#5E7359",
+        mel: "#E5A93B",
+        melSuave: "#F5D796",
+        azulPastel: "#B8D0D8",
+        textoBosque: "#3E3A35",
+      },
+      fontFamily: {
+        serifada: ["Georgia", "serif"],
+        corpo: ["Georgia", "serif"],
+      },
+    },
+  },
+  plugins: [],
+};
+export default config;
